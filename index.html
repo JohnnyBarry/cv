@@ -3,100 +3,71 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Jonathan's profile" />
-  <title>😎 Jonathan's Personal Site</title>
+  <title>Jonathan Barry</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing=20px>
-    <tr>
-      <td><img src="images/jb_and_jasper.jpg" height="250" width="400" alt="jonathan and Jasper"></td>
-      <td>
-        <h1>Jonathan Barry</h1>
-        <h3><em>Qa Automation Engineer</em></h3>
-        <h4>Ireland</h4>
-        <p>I work as a Qa Automation Engineer at <strong><a href="https://www.corehr.com/">Corehr</a></strong> in
-          Ballincollig
-          in Cork. I like
-          watching rugby, walking and hiking.</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Jonathan.</h1>
+    <h3 class="job-title">I'm a programmer</h3>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="http://www.cit.ie/">Cork Institute of Technology</a></li>
-    <ul>
-      <li>Higher Diploma in Cloud Computing</li>
-      <li>Bsc Software Development and Computer Networking</li>
-    </ul>
-    <li>Lismore CBS</li>
-    <li>Ballyduff Upper NS</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015</td>
-        <td>Qa Automation Engineer at Corehr</td>
-      </tr>
-      <tr>
-        <td>2014 - 2015</td>
-        <td>Associate Consultant at Sogeti Ireland</td>
-      </tr>
-      <tr>
-        <td>2004 - 2013</td>
-        <td>Company Director at AjQuickfit ltd</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>Javascript</td>
-                <td>⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>Siesta Test</td>
-                <td>⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>Java</td>
-                <td>⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>Postman</td>
-                <td>⭐⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact Me</a>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/man.png" alt="">
+      <h2>Hello.</h2>
+      <p>I am a closet programmer currently working as a QA automation Engineer. I studied Software Development in CIT.
+        I loving making and building things with my hands also. Carpentry is my favourite trade as one gets to play
+        with loads of cool toys.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="my-skills-left-img" src="images/web_code_pic.png" alt="web-code-image">
+        <!-- <img class="my-skills-left-img" src="https://media.giphy.com/media/srSuDa5N8WdJm/giphy.gif" alt=""> -->
+        <h3>Design And Development</h3>
+        <p>I have coded in Java, Javascript, HTLML5, CSS, Python and PLSQL. I love learning new technologies and
+          putting them into practice. I have experience in writing automated tests for web and
+          web services and integrating these into CI build systems using Jenkins.</p>
+      </div>
+      <div class="skill-row">
+        <img class="my-skills-right-img" src="images/hammer.png" alt="hammer-image">
+        <h3>Constuction</h3>
+        <p>I started building things with my father and uncles when I was around 10 years old. After collage I worked
+          in construction professionally for 10 years.
+          We carried out all types of construction including domestic and commercial.
+          Specialising in structural steel, mass concrete and warehousing. All this knowledge came in handy when I
+          built our own home.
+        </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>What are you passions? </h3>
+      <p>I'd love to hear from you if you have intrest in programming, building or any other reason.</p>
+      <a class="btn" href="mailto:jonathanbarry1@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jonathan-barry-08137b40/">LinkedIn</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© 2019 Jonathan Barry.</p>
+    <!-- <p>Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/"
+        title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p> -->
+  </div>
+
+</body>
 
 </html>

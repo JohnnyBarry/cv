@@ -34,14 +34,14 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  right: 350px;
+  right: 20%;
   top: 40px;
   width: 12.5%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 20%;
   bottom: 300px;
   width: 12.5%;
 }
@@ -116,7 +116,7 @@ hr {
 
 .contact-msg {
   width: 40%;
-  margin: 40px auto 60px; 
+  margin: 40px auto 60px;
 }
 
 .btn {
